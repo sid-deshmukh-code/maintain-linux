@@ -1,6 +1,6 @@
 # maintain-linux
 A program which helps you out maintaining your linux device.
-To use this copy maintain file    ***/bin***   here.
+To use this, copy maintain file    ***/bin***   here.
 
 ## Taking backup of our system
 

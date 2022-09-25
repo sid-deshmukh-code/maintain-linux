@@ -1,5 +1,5 @@
 # maintain-linux
-A Short script to update and take backup of your linux system
+A program which helps you out maintaining your linux device
 
 ## Taking backup of our system
 

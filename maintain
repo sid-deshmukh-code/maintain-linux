@@ -1,0 +1,13 @@
+#!/bin/bash
+
+optt=$1
+
+if [ "$optt" = "upd" ]; then
+        echo "Updating"
+	sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
+elif [ "$optt" = "bkp" ]; then
+        echo "Taking Backup"
+	sudo tar -zcf /var/backups/home.tgz /home/
+else
+        echo "SELECT AN OPTION"
+fi

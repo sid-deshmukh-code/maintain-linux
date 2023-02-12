@@ -9,5 +9,5 @@ elif [ "$optt" = "bkp" ]; then
         echo "Taking Backup"
 	sudo tar -zcf /var/backups/home.tgz /home/
 else
-        echo "SELECT AN OPTION"
+        echo -e "SELECT AN OPTION \n 1.Update (upd) \n 2.Backup (bkp)"
 fi
